@@ -161,3 +161,4 @@ def main_handler(event, context):
 【精易论坛】\n{msg_jy}\n\
 【网易云】\n{msg_wyy}"
     sendMsg(key, msg)
+    return msg
