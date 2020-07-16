@@ -17,7 +17,7 @@
 * 1.修改添加config.json相关参数
 * 2.打包成zip文件，上传至scf云函数
 * 3.添加定时触发器  
-PS：若本机环境运行，将index.py的`def main_handler(event, context):`一行改为`if __name__ == '__main__':`
+PS：若本机环境运行，将index.py的`def main_handler(event, context):`一行改为`if __name__ == '__main__':`，运行index.py
 ### 三、配置config.json
 * 1.Skey为[酷推](https://cp.xuthus.cc)密钥
 * 2.[爱奇艺（IQIYI）](https://iqiyi.com/)官网，浏览器F12打开开发者工具并刷新，直接搜索P00001
