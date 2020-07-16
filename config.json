@@ -1,0 +1,46 @@
+{
+    "SKey": "",
+    "IQIYI": [
+        {
+            "P00001": ""
+        }
+    ],
+    "TX": [
+        {
+            "params": "",
+            "cookies": "vqq_access_token=; vqq_openid=; vqq_refresh_token=; main_login=qq; vqq_vuserid=; vqq_vusession="
+        }
+    ],
+    "MGO": [
+        {
+            "params": ""
+        }
+    ],
+    "WYY": [
+        {
+            "uin": "",
+            "pwd": ""
+        }
+    ],
+    "ECLOUD": [
+        {
+            "user": "",
+            "pwd": ""
+        }
+    ],
+    "52PJ": [
+        {
+            "cookies": "htVD_2132_saltkey=; htVD_2132_auth="
+        }
+    ],
+    "LEY": [
+        {
+            "cookies": "2vlT_96d0_saltkey=; 2vlT_96d0_auth="
+        }
+    ],
+    "BBS": [
+        {
+            "cookies": "lDlk_ecc9_saltkey=; lDlk_ecc9_auth="
+        }
+    ]
+}
