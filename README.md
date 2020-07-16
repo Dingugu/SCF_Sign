@@ -16,7 +16,7 @@
 * 2.支持多账户签到
 * 3.支持添加酷推QQ推送
 ### 二、使用：
-* 1.修改添加config.json相关参数
+* 1.修改添加config.json相关参数，多账户在对应项目列表下添加字典参数即可
 * 2.打包成zip文件，上传至scf云函数
 * 3.添加定时触发器  
 PS：若本机环境运行，将index.py的`def main_handler(event, context):`一行改为`if __name__ == '__main__':`，运行index.py
