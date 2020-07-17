@@ -26,7 +26,7 @@ PS：若本机环境运行，将index.py的`def main_handler(event, context):`�
 * 1.Skey为[酷推](https://cp.xuthus.cc)密钥
 * 2.[爱奇艺（IQIYI）](https://iqiyi.com/)官网，浏览器F12打开开发者工具并刷新，直接搜索P00001
 * 3.[腾讯视频（TX）](https://v.qq.com/)官网，浏览器F12开发者工具并刷新，找到请求**access.video.qq.com/user/auth_refresh**，params为?后字符串，cookies为请求cookies（可仅提取关键参数）
-* 4.[芒果TV（MGO）]APP端，抓包获取url关键词**credits.bz.mgtv.com/user/creditsTake**，提取?后所有参数
+* 4.芒果TV（MGO）APP端，抓包获取url关键词**credits.bz.mgtv.com/user/creditsTake**，提取?后所有参数
 * 5.[网易云音乐（WYY）](https://music.163.com/)，填入账号、密码  
   *注：接用第三方接口*
 * 6.[天翼云盘（ECLOUD）](https://cloud.189.cn/)，填入账号、密码
