@@ -17,7 +17,7 @@
 * 3.支持添加酷推QQ推送
 
 ### 二、使用：
-* 1.修改添加config.json相关参数，多账户在对应项目列表下添加字典参数即可
+* 1.修改添加config.json相关参数
 * 2.打包成zip文件，上传至scf云函数
 * 3.添加定时触发器  
 PS：若本机环境运行，将index.py的`def main_handler(event, context):`一行改为`if __name__ == '__main__':`，运行index.py
@@ -33,3 +33,4 @@ PS：若本机环境运行，将index.py的`def main_handler(event, context):`�
 * 7.[吾爱破解（52PJ）](https://www.52pojie.cn/)网站，抓取cookies中关键参数**htVD_2132_saltkey、htVD_2132_auth**
 * 8.[乐易论坛（LEY）](https://www.leybc.com/)网站，抓取cookise中关键参数**2vlT_96d0_saltkey、2vlT_96d0_auth**
 * 9.[精易论坛（BBS）](https://bbs.125.la/)网站，抓取cookies中关键参数**lDlk_ecc9_saltkey、lDlk_ecc9_auth**
+* 注：多账户在对应项目列表下添加字典参数即可；若指定项目不签到，对应项目下留空列表
