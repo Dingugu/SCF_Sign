@@ -55,8 +55,8 @@ class LY_sign:
         print(f"{'-'*10}乐易签到：{res.content.decode('gbk')}{'-'*10}")
         msg = res.content.decode('gbk')
         if "奖励积分" in msg:
-            credits = re.search("：(.*?) 易币").group(1)
-            coins = re.search("易币 (.*?) 金钱").group(1)
+            credits = re.search("：(.*?) 易币", msg).group(1)
+            coins = re.search("易币 (.*?) 金钱", msg).group(1)
             msg = f"签到：+{credits}易币;+{coins}金钱"
         return msg
 
