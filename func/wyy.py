@@ -93,7 +93,7 @@ class WYY_sign:
             try:
                 msg = res.json()["msg"]
             except Exception as e:
-                if status_code == 502:
+                if res.status_code == 502:
                     self.daka()
                 else:
                     msg = e
